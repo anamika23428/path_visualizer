@@ -16,12 +16,14 @@
         <!-- bar-bottom -->
         <div class="option_bar flex flex-row justify-center gap-14 p-4 px-16">
             <!-- Dropdown Selection -->
-            <div class="algos flex flex-col p-4">
-                <select id="path-options" class="bg-[#fef08a] text-black border border-[#000] rounded-md p-2 hover:bg-[#F3F4F6] focus:ring-2 focus:ring-[#000] cursor-pointer">
+            <div class="algos flex flex-col p-3">
+                <select id="path-options" class="drop_down">
                     <option value="Dijkstra">Dijkstra</option>
                     <option value="Bellman-Ford">Bellman-Ford</option>
                     <option value="DFS">DFS</option>
                 </select>
+                <p class="pt-2">Speed of algorithm:</p>
+                <input id="a_speed" class="speed" type="range" min=1 max=5 step=1 value=4>
             </div>
             
                 <img src="\images\doraemon.jpg" alt="Doraemon" class="w-20 h-20 border-2 border-black object-cover rounded-full">
@@ -34,7 +36,7 @@
                 
             <!-- Action Buttons -->
             <div class="actions flex flex-col justify-center space-y-2 align-center">
-                <button class=" new">Clear Path</button>
+                <button class="new">Clear Path</button>
                 <button class="new">Reset</button>
             </div>
         </div>

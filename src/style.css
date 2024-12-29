@@ -55,3 +55,27 @@
     background-color: #2563eb;
     color: #ffff;
 }
+.drop_down {
+    
+    background-color: #fef08a; 
+    color: black;
+    border: 1px solid #000; 
+    border-radius: 6px; 
+    padding: 6px; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease, box-shadow 0.2s ease; 
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+}
+
+.drop_down:focus {
+    outline: none; 
+   
+}
+.speed{
+    
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #fef08a;
+    background-color: #fff;
+    font-size: medium;
+}
